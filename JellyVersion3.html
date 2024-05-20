@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jelly Documentation</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div class="MiniBar" id="MiniBar">
+        <a id="MenuButton" href="javascript:void(0)" class="MenuButton" onclick="handleNav()">&times;</a>
+    </div>
+    <div class="SideBar" id="SideBar">
+        <a href="./index.html" class="SidebarItem">
+            <div class="HStack VerticalyCentered">
+                <img class="Logo" src="./assets/logo.png" width="50" height="50" />
+                <h1 class="LogoHeader">Jelly</h1>
+            </div>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Getting_Started/language_overview.html">
+            <h1 class="SidebarItemHeader">Getting Started</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Language_Guide/basics.html">
+            <h1 class="SidebarItemHeader">Language Guide</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Shortcuts_Standard/index.html">
+            <h1 class="SidebarItemHeader">Shortcuts Standard</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Actions/index.html">
+            <h1 class="SidebarItemHeader">Actions</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Apollo/index.html">
+            <h1 class="SidebarItemHeader">Apollo</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/a-Shell/index.html">
+            <h1 class="SidebarItemHeader">a-Shell</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/a-Shell_Mini/index.html">
+            <h1 class="SidebarItemHeader">a-Shell Mini</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/CARROT_Weather/index.html">
+            <h1 class="SidebarItemHeader">CARROT Weather</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Data_Jar/index.html">
+            <h1 class="SidebarItemHeader">Data Jar</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Drafts/index.html">
+            <h1 class="SidebarItemHeader">Drafts</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Focused_Work/index.html">
+            <h1 class="SidebarItemHeader">Focused Work</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/GizmoPack/index.html">
+            <h1 class="SidebarItemHeader">GizmoPack</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Jellycuts/index.html">
+            <h1 class="SidebarItemHeader">Jellycuts</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/LinkBin/index.html">
+            <h1 class="SidebarItemHeader">LinkBin</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Nudget/index.html">
+            <h1 class="SidebarItemHeader">Nudget</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Progress/index.html">
+            <h1 class="SidebarItemHeader">Progress</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Recurrence/index.html">
+            <h1 class="SidebarItemHeader">Recurrence</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Rubyist/index.html">
+            <h1 class="SidebarItemHeader">Rubyist</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Scriptable/index.html">
+            <h1 class="SidebarItemHeader">Scriptable</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/The_Wallpaper_App/index.html">
+            <h1 class="SidebarItemHeader">The Wallpaper App</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Toolbox_Pro/index.html">
+            <h1 class="SidebarItemHeader">Toolbox Pro</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/WidgetPack/index.html">
+            <h1 class="SidebarItemHeader">WidgetPack</h1>
+        </a>
+        <hr>
+        <div class="HStack VerticalyCentered" style="margin-top: 10px;">
+            <a class="SidebarItem" href="https://jellycuts.com">
+                <h1 class="SidebarButton" style="width: 20px;height: 20px; font-size: 14px;">🏠</h1>
+            </a>
+            <a class="SidebarItem" href="javascript:void(0)" onclick="handleNav()">
+                <h1 class="SidebarButton" style="width: 125px;height: 20px;">Close Sidebar</h1>
+            </a>
+        </div>
+        <div style="margin-bottom: 40px;">
+        </div>
+    </div>
+    <div class="Main" id="Main">
+        <h1>Jelly Version 3.0 update notes</h1>
+        <p></p>
+        <h2 id='the-jelly-programming-language'>The Jelly Programming Language</h2>
+        <p>The Jelly programming language was created to code <a
+                href='https://apps.apple.com/us/app/shortcuts/id915249334'>Siri Shortcuts</a> in a text base language.
+            This is why the language is currently structured around calling functions. </p>
+        <h3 id='the-shortcuts-library'>The Shortcuts Library</h3>
+        <p>The standard Jelly library is the Shortcuts Library. This library contains functions that are easily
+            translated directly into default Shortcuts actions. Documentation for this library can be found on the <a
+                href='./Shortcuts_Standard/index.html'>Shortcuts Standard Page.</a></p>
+        <p>Hello all! Welcome to the documentation for Jelly version 3.0, this page will go over all of the updates for
+            changes that come with a major language update. I recommend reading as much of this page as possible as it
+            will make your transition to the new language version much easier and significantly quicker.</p>
+        <h2 data-heading="Syntax Changes">Syntax Changes</h2>
+        <h3 data-heading="Variables">Variables</h3>
+        <p>The biggest change since version 2.0 is how variables are named. In previous versions variables could be
+            named with spaces. In Jelly 3.0 this has been changed to more closely match other programming languages that
+            do not allow spaces in variable names. The characters that are allowed in variables are as follows
+            <code>[a-z][A-Z][0-9]_$</code>.
+        </p>
+        <h4 data-heading="Setting Variables">Setting Variables</h4>
+        <p>You can set variables by using the following syntaxes:</p>
+        <pre><code>
+var x = 3
+                
+var y = "Hello World!"
+                
+var z = ShortcutInput
+                </code><button class="copy-code-button">Copy</button></pre>
+        <h4 data-heading="Updating A Variable">Updating A Variable</h4>
+        <p>You can update the value of a variable using the following syntaxes:</p>
+        <pre><code>
+x = 3
+                
+y = "Hello World!"
+                
+z = ShortcutInput
+                </code><button class="copy-code-button">Copy</button></pre>
+        <h3 data-heading="Functions">Functions</h3>
+        <p>Previously in Jelly 2.0 you were able to call functions without naming any parameters. However, in Jelly 3.0
+            parameters are now required for functions. </p>
+        <pre><code>text(text: "Hello World!")
+                </code><button class="copy-code-button">Copy</button></pre>
+        <h3 data-heading="Menu Control Flows">Menu Control Flows</h3>
+        <p>Menus have been altered to match switch statements from other languages. In previous versions of Jelly you
+            would need to list all case names in a menu's header. You now no longer need to do this. The only thing
+            needed in the head statement is the menu prompt. </p>
+        <p>Another change to menu statements is that case statements no longer need parentheses. They now only need the
+            name of the option surrounded by parentheses.</p>
+        <pre><code>
+menu("Hello World") {
+    case "Case One":
+        text(text: "Test")
+    case "Case Two":
+        text(text: "Test Two")
+}
+                </code><button class="copy-code-button">Copy</button></pre>
+        <h3 data-heading="Conditional Control Flows">Conditional Control Flows</h3>
+        <p>If statements have also been altered to be easier to type on a mobile device along with matching the Swift
+            language closer. This means that an if statement can look like either of these:</p>
+        <pre><code>
+if ShortcutInput.as(Text) == "Hello World" {
+    quicklook(input: ShortcutInput)
+}
+                
+or
+                
+if (ShortcutInput.as(Text) == "Hello World") {
+    quicklook(input: ShortcutInput)
+}
+                </code><button class="copy-code-button">Copy</button></pre>
+        <h4 data-heading="Conditional Operations">Conditional Operations</h4>
+        <p>The following operations are supported by the if statements. The table will list the operation side by side
+            with the shortcuts equivalent operation.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Jelly</th>
+                    <th>Shortcuts</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&amp;&amp;</td>
+                    <td>And</td>
+                </tr>
+                <tr>
+                    <td>||</td>
+                    <td>or</td>
+                </tr>
+                <tr>
+                    <td>==</td>
+                    <td>Equals</td>
+                </tr>
+                <tr>
+                    <td>!=</td>
+                    <td>Not Equals</td>
+                </tr>
+                <tr>
+                    <td>&lt;</td>
+                    <td>Less Than</td>
+                </tr>
+                <tr>
+                    <td>&lt;=</td>
+                    <td>Less Than Equals</td>
+                </tr>
+                <tr>
+                    <td>&gt;</td>
+                    <td>Greater Than</td>
+                </tr>
+                <tr>
+                    <td>&gt;=</td>
+                    <td>Greater Than Equals</td>
+                </tr>
+                <tr>
+                    <td>::</td>
+                    <td>Contains</td>
+                </tr>
+                <tr>
+                    <td>!:</td>
+                    <td>Does Not Contain</td>
+                </tr>
+                <tr>
+                    <td>$$</td>
+                    <td>Begins With</td>
+                </tr>
+                <tr>
+                    <td>$!</td>
+                    <td>Ends With</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

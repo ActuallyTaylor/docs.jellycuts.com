@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jelly Documentation</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js"></script>
+</head>
+
+<body>
+    <div class="MiniBar" id="MiniBar">
+        <a id="MenuButton" href="javascript:void(0)" class="MenuButton" onclick="handleNav()">&times;</a>
+    </div>
+    <div class="SideBar" id="SideBar">
+        <a href="../index.html" class="SidebarItem">
+            <div class="HStack VerticalyCentered">
+                <img class="Logo" src="../assets/logo.png" width="50" height="50" />
+                <h1 class="LogoHeader">Jelly</h1>
+            </div>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="../Getting_Started/language_overview.html">
+            <h1 class="SidebarItemHeader">Getting Started</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="./basics.html">
+            <h1 class="SidebarItemHeader">Language Guide</h1>
+        </a>
+        <ol>
+            <a href="./basics.html">
+                <p>The Basics</p>
+            </a>
+            <a href="./importing.html">
+                <p>Importing Libraries</p>
+            </a>
+            <a href="./variables.html">
+                <p>Traditional Variables</p>
+            </a>
+            <a href="./magic_variables.html">
+                <p>Magic Variables</p>
+            </a>
+            <a href="./global.html">
+                <p><b>Global Variables</b></p>
+            </a>
+            <a href="./strings.html">
+                <p>Strings</p>
+            </a>
+            <a href="./metadata.html">
+                <p>Declared Metadata</p>
+            </a>
+            <a href="./property.html">
+                <p>Property Modifier</p>
+            </a>
+            <a href="./key.html">
+                <p>Key Modifier</p>
+            </a>
+            <a href="./type.html">
+                <p>Type Casting</p>
+            </a>
+            <a href="./if_else.html">
+                <p>If & Else Statments</p>
+            </a>
+            <a href="./repeat.html">
+                <p>Repeat & Repeat Each</p>
+            </a>
+            <a href="./functions_macros.html">
+                <p>Functions & Macros</p>
+            </a>
+            <a href="./menus.html">
+                <p>Menus</p>
+            </a>
+
+        </ol>
+
+        <hr>
+        <a class="SidebarItem" href="/docs/Shortcuts_Standard/index.html">
+            <h1 class="SidebarItemHeader">Shortcuts Standard</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Actions/index.html">
+            <h1 class="SidebarItemHeader">Actions</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Apollo/index.html">
+            <h1 class="SidebarItemHeader">Apollo</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/a-Shell/index.html">
+            <h1 class="SidebarItemHeader">a-Shell</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/a-Shell_Mini/index.html">
+            <h1 class="SidebarItemHeader">a-Shell Mini</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/CARROT_Weather/index.html">
+            <h1 class="SidebarItemHeader">CARROT Weather</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Data_Jar/index.html">
+            <h1 class="SidebarItemHeader">Data Jar</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Drafts/index.html">
+            <h1 class="SidebarItemHeader">Drafts</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Focused_Work/index.html">
+            <h1 class="SidebarItemHeader">Focused Work</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/GizmoPack/index.html">
+            <h1 class="SidebarItemHeader">GizmoPack</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Jellycuts/index.html">
+            <h1 class="SidebarItemHeader">Jellycuts</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/LinkBin/index.html">
+            <h1 class="SidebarItemHeader">LinkBin</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Nudget/index.html">
+            <h1 class="SidebarItemHeader">Nudget</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Progress/index.html">
+            <h1 class="SidebarItemHeader">Progress</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Recurrence/index.html">
+            <h1 class="SidebarItemHeader">Recurrence</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Rubyist/index.html">
+            <h1 class="SidebarItemHeader">Rubyist</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Scriptable/index.html">
+            <h1 class="SidebarItemHeader">Scriptable</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/The_Wallpaper_App/index.html">
+            <h1 class="SidebarItemHeader">The Wallpaper App</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Toolbox_Pro/index.html">
+            <h1 class="SidebarItemHeader">Toolbox Pro</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/WidgetPack/index.html">
+            <h1 class="SidebarItemHeader">WidgetPack</h1>
+        </a>
+        <hr>
+<!-- <a class="SidebarItem" href="../Jellycuts_Library/index.html">
+            <h1 class="SidebarItemHeader">Jellycuts Library</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="../The_Wallpaper_App_Library/index.html">
+            <h1 class="SidebarItemHeader">The Wallpaper App Library</h1>
+        </a>
+        <hr> -->
+        <div class="HStack VerticalyCentered" style="margin-top: 10px;">
+            <a class="SidebarItem" href="https://jellycuts.com">
+                <h1 class="SidebarButton" style="width: 20px;height: 20px; font-size: 14px;">🏠</h1>
+            </a>
+            <a class="SidebarItem" href="javascript:void(0)" onclick="handleNav()">
+                <h1 class="SidebarButton" style="width: 125px;height: 20px;">Close Sidebar</h1>
+            </a>
+        </div>
+        <div style="margin-bottom: 40px;">
+        </div>
+    </div>
+    <div class="Main" id="Main">
+        <h1 id='global-variables'>Global Variables</h1>
+        <p>Global variables, like magic variables are not mutable. These variables are available anywhere in a shortcut, and are used like any other variable that you would normally declare. They can be used within text, by using the
+            <code>${}</code> syntax just like any other variable.</p>
+        <h2 id='available-global-variables'>Available Global Variables</h2>
+        <ol start=''>
+            <li>Shortcut Input</li>
+            <li>Clipboard</li>
+            <li>Current Date</li>
+            <li>Ask</li>
+
+        </ol>
+        <h2 id='shortcut-input'>Shortcut Input</h2>
+        <p>Shortcut input can be used to retrieve whatever input was sent into the Shortcut. Shortcut input can be any of the following
+        </p>
+        <ol start=''>
+            <li>App Store Apps</li>
+            <li>Articles</li>
+            <li>Contacts</li>
+            <li>Dates</li>
+            <li>Email Addresses</li>
+            <li>Files</li>
+            <li>Images</li>
+            <li>iTunes Products</li>
+            <li>Locations</li>
+            <li>Map Links</li>
+            <li>Media</li>
+            <li>PDFs</li>
+            <li>Phone Numbers</li>
+            <li>Rich Text</li>
+            <li>Safari Web Pages</li>
+            <li>Text</li>
+            <li>URLs</li>
+
+        </ol>
+        <h3 id='usage-1'>Usage</h3>
+        <pre><code>//Inside Text
+Text(&quot;Hello ${Shortcut Input}&quot;)
+
+//Assiging a variable to the shortcut input
+var input = Shortcut Input
+</code></pre>
+        <h2 id='clipboard'>Clipboard</h2>
+        <p>This global variable will get the current item in the clipboard.</p>
+        <h3 id='usage-2'>Usage</h3>
+        <pre><code>//Inside Text
+Text(&quot;Hello ${Clipboard}&quot;)
+
+//Assiging a variable to the current clipboard
+var clippy = Clipboard
+</code></pre>
+        <h2 id='current-date'>Current Date</h2>
+        <p>This global variable will get the current date.</p>
+        <h3 id='usage-3'>Usage</h3>
+        <pre><code>//Inside Text
+Text(&quot;Hello ${Current Date}&quot;)
+
+//Assiging a variable to the current Current Date
+var bestDayEver = Current Date
+</code></pre>
+        <h2 id='ask'>Ask</h2>
+        <p>This variable will tell shortcuts that it needs to ask the user for the value it should represent. So if you wanted to ask the user their name to say hello, you could put ask into a string with the text hello in front of it. </p>
+        <h3 id='usage-4'>Usage</h3>
+        <pre><code>//Ask the user there name
+Text(&quot;Hello ${Ask}&quot;)
+
+//Assiging a variable to a varaible the user should input
+var bestDayEver = Ask
+</code></pre>
+        <h2>Global Variables within a string</h2>
+        <p>Check out the <a href="./strings.html">Strings</a> documentation to see how to place a global variable into a string</p>
+    </div>
+
+</body>
+
+</html>

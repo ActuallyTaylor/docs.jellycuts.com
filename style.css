@@ -1,0 +1,209 @@
+:root {
+    --background: #FAFAFA;
+    --header1Color: #1D1D1D;
+    --header2Color: #2e2e2e;
+    --header3Color: #363636;
+    --bodyColor: #333333;
+    --sideBarBackground: #f3f3f3;
+    --hoverColor: #18a8e0;
+    --sideBarBorder: #dbdbdb;
+    --code: rgb(171, 178, 191);
+    --codeBackground: rgb(40, 44, 52);
+}
+
+body {
+    background-color: var(--background);
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+a {
+    color: var(--hoverColor);
+}
+
+.HStack {
+    display: flex;
+    flex-direction: row;
+}
+
+.VerticalyCentered {
+    display: flex;
+    align-items: center;
+}
+
+.HorizontalyCentered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Main {
+    margin-left: 250px;
+    color: var(--bodyColor);
+    font-size: 18px;
+    width: 800px;
+}
+
+.Main h1 {
+    color: var(--header1Color);
+    font-size: 2.6em;
+    font-weight: 300;
+}
+
+.Main h2 {
+    color: var(--header2Color);
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.Main h3 {
+    color: var(--header3Color);
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.Main p {
+    color: var(--bodyColor);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.SideBar {
+    background-color: var(--sideBarBackground);
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    text-align: left;
+    color: var(--header1Color);
+    padding: 20px;
+    border-right-style: solid;
+    border-width: 2px;
+    border-color: var(--sideBarBorder);
+}
+
+.LogoHeader {
+    font-size: 47px;
+    color: var(--header1Color);
+    font-weight: 600;
+    margin: 0;
+}
+
+.Logo {
+    padding: 10px;
+}
+
+.SidebarHeader {
+    font-size: 19px;
+    color: var(--header1Color);
+    font-weight: 600;
+}
+
+.SideBar ol {
+    padding-inline-start: 10px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 5px;
+}
+
+.SideBar a {
+    text-decoration: none;
+    color: var(--header3Color);
+}
+
+.SideBar a :hover {
+    color: var(--hoverColor);
+    transform: scale(1.010);
+}
+
+.SideBar p {
+    margin: 0;
+}
+
+.SidebarItemHeader {
+    font-size: 16px;
+    color: var(--header2Color);
+    font-weight: 500;
+    margin: 0;
+}
+
+.SidebarButton {
+    background: var(--codeBackground);
+    color: var(--code);
+    padding: 2.5px;
+    border-radius: 6px;
+    font-size: 1em;
+    overflow-x: auto;
+    text-align: center;
+    margin-right: 2.5px;
+}
+
+pre {
+    background: var(--codeBackground);
+    color: var(--code);
+    padding: 2.5px 5px;
+    border-radius: 6px;
+    font-size: 1em;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+.MenuButton {
+    text-decoration: none;
+}
+
+.MiniBar {
+    background-color: var(--codeBackground);
+    height: 25px;
+    width: 25px;
+    display: block;
+    z-index: 999;
+    margin: 7px;
+    border-radius: 7px;
+    color: var(--header1Color);
+    margin-left: 250px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 25px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .Main {
+        width: 95vw;
+    }
+    .MiniBar {
+        display: block;
+    }
+}
+
+.bulletImage {
+    width: 25px;
+    height: 25px;
+    background-color: #1a242f;
+    padding: 3px;
+    border-radius: 7px;
+}
+
+.iOSBadge {
+    display: flex;
+    background-color: rgb(98, 179, 233);
+    border-radius: 7px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 30px;
+    margin: 0;
+    color: black;
+    margin-left: 15px;
+}

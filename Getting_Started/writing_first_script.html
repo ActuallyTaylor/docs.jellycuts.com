@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Writing your first script</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js"></script>
+</head>
+
+<body>
+    <div class="MiniBar" id="MiniBar">
+        <a id="MenuButton" href="javascript:void(0)" class="MenuButton" onclick="handleNav()">&times;</a>
+    </div>
+    <div class="SideBar" id="SideBar">
+        <a href="../index.html" class="SidebarItem">
+            <div class="HStack VerticalyCentered">
+                <img class="Logo" src="../assets/logo.png" width="50" height="50" />
+                <h1 class="LogoHeader">Jelly</h1>
+            </div>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="./language_overview.html">
+            <h1 class="SidebarItemHeader">Getting Started</h1>
+        </a>
+        <ol>
+            <a href="./language_overview.html">
+                <p>Language Overview</p>
+            </a>
+            <!-- <a href="./setting_up_jellycuts.html">
+                <p>Setting Up Jellycuts</p>
+            </a> -->
+            <a href="./writing_first_script.html">
+                <p><b>Writing Your First Script</b></p>
+            </a>
+        </ol>
+        <hr>
+        <a class="SidebarItem" href="/docs/Language_Guide/basics.html">
+            <h1 class="SidebarItemHeader">Language Guide</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Shortcuts_Standard/index.html">
+            <h1 class="SidebarItemHeader">Shortcuts Standard</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Actions/index.html">
+            <h1 class="SidebarItemHeader">Actions</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Apollo/index.html">
+            <h1 class="SidebarItemHeader">Apollo</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/a-Shell/index.html">
+            <h1 class="SidebarItemHeader">a-Shell</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/a-Shell_Mini/index.html">
+            <h1 class="SidebarItemHeader">a-Shell Mini</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/CARROT_Weather/index.html">
+            <h1 class="SidebarItemHeader">CARROT Weather</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Data_Jar/index.html">
+            <h1 class="SidebarItemHeader">Data Jar</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Drafts/index.html">
+            <h1 class="SidebarItemHeader">Drafts</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Focused_Work/index.html">
+            <h1 class="SidebarItemHeader">Focused Work</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/GizmoPack/index.html">
+            <h1 class="SidebarItemHeader">GizmoPack</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Jellycuts/index.html">
+            <h1 class="SidebarItemHeader">Jellycuts</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/LinkBin/index.html">
+            <h1 class="SidebarItemHeader">LinkBin</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Nudget/index.html">
+            <h1 class="SidebarItemHeader">Nudget</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Progress/index.html">
+            <h1 class="SidebarItemHeader">Progress</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Recurrence/index.html">
+            <h1 class="SidebarItemHeader">Recurrence</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Rubyist/index.html">
+            <h1 class="SidebarItemHeader">Rubyist</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Scriptable/index.html">
+            <h1 class="SidebarItemHeader">Scriptable</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/The_Wallpaper_App/index.html">
+            <h1 class="SidebarItemHeader">The Wallpaper App</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Toolbox_Pro/index.html">
+            <h1 class="SidebarItemHeader">Toolbox Pro</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/WidgetPack/index.html">
+            <h1 class="SidebarItemHeader">WidgetPack</h1>
+        </a>
+        <hr>
+<!-- <a class="SidebarItem" href="/docs//Jellycuts_Library/index.html">
+            <h1 class="SidebarItemHeader">Jellycuts Library</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/The_Wallpaper_App_Library/index.html">
+            <h1 class="SidebarItemHeader">The Wallpaper App Library</h1>
+        </a> -->
+        <!-- <hr> -->
+        <div class="HStack VerticalyCentered" style="margin-top: 10px;">
+            <a class="SidebarItem" href="https://jellycuts.com">
+                <h1 class="SidebarButton" style="width: 20px;height: 20px; font-size: 14px;">🏠</h1>
+            </a>
+            <a class="SidebarItem" href="javascript:void(0)" onclick="handleNav()">
+                <h1 class="SidebarButton" style="width: 125px;height: 20px;">Close Sidebar</h1>
+            </a>
+        </div>
+        <div style="margin-bottom: 40px;">
+        </div>
+    </div>
+    <div class="Main" id="Main">
+        <h1>Writing Your First Script</h1>
+        <h2 id='downloading-the-ios-app'>Downloading the iOS App</h2>
+        <p>If you have not already you can get the iOS App <a href='https://apps.apple.com/us/app/jellycuts/id1522625245'>on the App Store</a>. When you have downloaded the App go through the tutorial inside the app to get connected to Shortcuts. </p>
+        <p>Once you have completed that you can open &quot;Starter Jellycut&quot; to get started with this tutorial.
+        </p>
+        <h2 id='lets-get-started'>Let&#39;s get started</h2>
+        <p>This is what you will first see when you either, create a new project or open &quot;Starter Jellycut&quot;. At the very top of the file you will see an import Statement. This important statement is importing the <a href="../Shortcuts_Standard/index.html">Standard Shortcuts Library</a>            with a version of 1092.6 (What this means is covered more in the article on the Standard Shortcuts Library). The next line will be the metadata definition. This metadata tell&#39;s Jellycuts some things about the how it should export the Shortcut,
+            such as the Color and Icon. The full list of values for these flags can be found on the page covering <a href="../Language_Guide/metadata.html">Metadata</a>.
+        </p>
+        <pre>
+            <code>
+import Shortcuts 1092.6
+#Color: red, #Icon: shortcuts</code>
+        </pre>
+        <h3 id='hello-world'>Hello World!</h3>
+        <p>Let&#39;s start off where learning always starts, the Hello World! program. In Jelly this is fairly simple, the first step is to add a text block to the script</p>
+        <pre>
+            <code>
+text(text: &quot;Hello World!&quot;)</code>
+        </pre>
+        <p>Next you want to add a <a href="../Language_Guide/magic_variables.html">Magic Variable</a> to the end of this line so we can get the value out of the text block and into our display function</p>
+        <pre>
+            <code>
+text(text: &quot;Hello World!&quot;) &gt;&gt; introduction</code>
+        </pre>
+        <p>After that we are going to add in our display function. Currently the best way to display a short amount of text to a the user is to show it in an alert. As you can see we are using String interpolation to insert our variable into the alert text.
+            This is gone over more in depth in the <a href="../Language_Guide/strings.html">Strings</a> article.</p>
+        <pre>
+            <code>
+alert(alert: &quot;${introduction}&quot;)</code>
+        </pre>
+        <p>Once that is all done you should have this as your final script! You can now export this out of Jellycuts into Shortcuts and run it. </p>
+        <pre>
+            <code>
+import Shortcuts 1092.6
+#Color: red, #Icon: shortcuts
+
+text(text: &quot;Hello World!&quot;) &gt;&gt; introduction
+alert(alert: &quot;${introduction}&quot;)</code>
+        </pre>
+        <h2 id='next-steps'>Next steps</h2>
+        <p>Now that you have written your first Jellycut, you can either jump right into writing more or read the more of the documentation. To start I would recommend reading over the <a href="../Language_Guide/basics.html">Language Guide</a> to find more
+            information about the Jelly language.</p>
+    </div>
+
+</body>
+
+</html>

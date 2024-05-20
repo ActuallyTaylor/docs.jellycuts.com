@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jelly Documentation</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js"></script>
+</head>
+
+<body>
+    <div class="MiniBar" id="MiniBar">
+        <a id="MenuButton" href="javascript:void(0)" class="MenuButton" onclick="handleNav()">&times;</a>
+    </div>
+    <div class="SideBar" id="SideBar">
+        <a href="../index.html" class="SidebarItem">
+            <div class="HStack VerticalyCentered">
+                <img class="Logo" src="../assets/logo.png" width="50" height="50" />
+                <h1 class="LogoHeader">Jelly</h1>
+            </div>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="../Getting_Started/language_overview.html">
+            <h1 class="SidebarItemHeader">Getting Started</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="./basics.html">
+            <h1 class="SidebarItemHeader">Language Guide</h1>
+        </a>
+        <ol>
+            <a href="./basics.html">
+                <p>The Basics</p>
+            </a>
+            <a href="./importing.html">
+                <p>Importing Libraries</p>
+            </a>
+            <a href="./variables.html">
+                <p>Traditional Variables</p>
+            </a>
+            <a href="./magic_variables.html">
+                <p>Magic Variables</p>
+            </a>
+            <a href="./global.html">
+                <p>Global Variables</p>
+            </a>
+            <a href="./strings.html">
+                <p>Strings</p>
+            </a>
+            <a href="./metadata.html">
+                <p>Declared Metadata</p>
+            </a>
+            <a href="./property.html">
+                <p>Property Modifier</p>
+            </a>
+            <a href="./key.html">
+                <p>Key Modifier</p>
+            </a>
+            <a href="./type.html">
+                <p>Type Casting</p>
+            </a>
+            <a href="./if_else.html">
+                <p>If & Else Statments</p>
+            </a>
+            <a href="./repeat.html">
+                <p><b>Repeat & Repeat Each</b></p>
+            </a>
+            <a href="./functions_macros.html">
+                <p>Functions & Macros</p>
+            </a>
+            <a href="./menus.html">
+                <p>Menus</p>
+            </a>
+
+        </ol>
+
+        <hr>
+        <a class="SidebarItem" href="/docs/Shortcuts_Standard/index.html">
+            <h1 class="SidebarItemHeader">Shortcuts Standard</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Actions/index.html">
+            <h1 class="SidebarItemHeader">Actions</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Apollo/index.html">
+            <h1 class="SidebarItemHeader">Apollo</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/a-Shell/index.html">
+            <h1 class="SidebarItemHeader">a-Shell</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/a-Shell_Mini/index.html">
+            <h1 class="SidebarItemHeader">a-Shell Mini</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/CARROT_Weather/index.html">
+            <h1 class="SidebarItemHeader">CARROT Weather</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Data_Jar/index.html">
+            <h1 class="SidebarItemHeader">Data Jar</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Drafts/index.html">
+            <h1 class="SidebarItemHeader">Drafts</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Focused_Work/index.html">
+            <h1 class="SidebarItemHeader">Focused Work</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/GizmoPack/index.html">
+            <h1 class="SidebarItemHeader">GizmoPack</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Jellycuts/index.html">
+            <h1 class="SidebarItemHeader">Jellycuts</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/LinkBin/index.html">
+            <h1 class="SidebarItemHeader">LinkBin</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Nudget/index.html">
+            <h1 class="SidebarItemHeader">Nudget</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Progress/index.html">
+            <h1 class="SidebarItemHeader">Progress</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Recurrence/index.html">
+            <h1 class="SidebarItemHeader">Recurrence</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Rubyist/index.html">
+            <h1 class="SidebarItemHeader">Rubyist</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Scriptable/index.html">
+            <h1 class="SidebarItemHeader">Scriptable</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/The_Wallpaper_App/index.html">
+            <h1 class="SidebarItemHeader">The Wallpaper App</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/Toolbox_Pro/index.html">
+            <h1 class="SidebarItemHeader">Toolbox Pro</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="/docs/WidgetPack/index.html">
+            <h1 class="SidebarItemHeader">WidgetPack</h1>
+        </a>
+        <hr>
+<!-- <a class="SidebarItem" href="../Jellycuts_Library/index.html">
+            <h1 class="SidebarItemHeader">Jellycuts Library</h1>
+        </a>
+        <hr>
+        <a class="SidebarItem" href="../The_Wallpaper_App_Library/index.html">
+            <h1 class="SidebarItemHeader">The Wallpaper App Library</h1>
+        </a>
+        <hr> -->
+
+        <div class="HStack VerticalyCentered" style="margin-top: 10px;">
+            <a class="SidebarItem" href="https://jellycuts.com">
+                <h1 class="SidebarButton" style="width: 20px;height: 20px; font-size: 14px;">🏠</h1>
+            </a>
+            <a class="SidebarItem" href="javascript:void(0)" onclick="handleNav()">
+                <h1 class="SidebarButton" style="width: 125px;height: 20px;">Close Sidebar</h1>
+            </a>
+        </div>
+        <div style="margin-bottom: 40px;">
+        </div>
+    </div>
+    <div class="Main" id="Main">
+        <h1>Repeat</h1>
+        <p>Repeats are pretty straight forward. They just repeat whatever code you have in them a certain amount of times. Inside a repeat statement you can access a local variable named <code>repeat index</code>. This variable will give you the current
+            index of the repeat statement. To declare a repeat you use the following syntax.</p>
+        <pre><code>repeat(&lt;#Integer or Variable#&gt;) {
+    &lt;#Code#&gt;
+}
+</code></pre>
+        <p>Below are examples of a fully constructed repeat statement</p>
+        <pre><code>//Repeat with an integer
+repeat(3) {
+    wait(Repeat index)
+}
+//Repeat with a variable
+repeat(seconds) {
+    wait(Repeat index)
+}
+</code></pre>
+        <h1>Repeat Each</h1>
+        <p><code>repeatEach</code> is equivalent to shortcuts <code>Repeat With Each</code>. This is basically a
+            <code>forEach</code> in other programming languages. This allows you to repeat through every item in a variable array and access each individual item as you loop through. Inside a <code>repeatEach</code> statement you have access to two local
+            variables <code>Repeat Index</code> and <code>Repeat Item</code>. <code>Repeat Index</code> will get the current index of the repeat each statement, and <code>Repeat Item</code> will get the current item of the repeat each statement.
+        </p>
+        <p>Below is the syntax for a repeat statement</p>
+        <pre><code>repeatEach(&lt;#Variable#&gt;) {
+    &lt;#Code#&gt;
+}
+</code></pre>
+        <p>Below is an example of a fully constructed repeat each statement</p>
+        <pre><code>repeatEach(assignments) {
+    quicklook(Repeat Item)
+}
+</code></pre>
+    </div>
+
+</body>
+
+</html>
