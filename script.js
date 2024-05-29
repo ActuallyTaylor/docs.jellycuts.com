@@ -1,3 +1,4 @@
+
 var isOpen = true
 var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
@@ -35,3 +36,28 @@ function handleNav() {  
     }
     isOpen = !isOpen
 }
+
+
+// script.js
+
+(function() {
+  // Load Google Tag Manager script asynchronously
+  var gtagScript = document.createElement('script');
+  gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-9CPRSLKZTZ';
+  gtagScript.async = true;
+  document.head.appendChild(gtagScript);
+
+  // Initialize dataLayer if not already initialized
+  window.dataLayer = window.dataLayer || [];
+
+  // Function to push data to dataLayer
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  // Call gtag function to set up tracking
+  gtag('js', new Date());
+
+  // Configure Google Analytics with your tracking ID
+  gtag('config', 'G-9CPRSLKZTZ');
+})();
