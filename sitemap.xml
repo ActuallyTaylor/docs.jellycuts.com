@@ -6,67 +6,67 @@
 	http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 	<!-- Main Documentation URLs -->
 	<url>
-		<loc>https://docs.jellycuts.com/Documentation/Actions</loc>
+		<loc>https://docs.jellycuts.com/Actions</loc>
 	</url>
 	<url>
-		<loc>https://docs.jellycuts.com/Documentation/Apollo</loc>
+		<loc>https://docs.jellycuts.com/Apollo</loc>
 	</url>
 	<url>
-		<loc>https://docs.jellycuts.com/Documentation/CARROT</loc>
+		<loc>https://docs.jellycuts.com/CARROT</loc>
 	</url>
 	<url>
-		<loc>https://docs.jellycuts.com/Documentation/DataJar</loc>
+		<loc>https://docs.jellycuts.com/DataJar</loc>
 	</url>
 	<url>
-		<loc>https://docs.jellycuts.com/Documentation/Drafts</loc>
+		<loc>https://docs.jellycuts.com/Drafts</loc>
 	</url>
 	<url>
-		<loc>https://docs.jellycuts.com/Documentation/FocusedWork</loc>
+		<loc>https://docs.jellycuts.com/FocusedWork</loc>
 	</url>
 	<url>
-		<loc>https://docs.jellycuts.com/Documentation/GizmoPack</loc>
+		<loc>https://docs.jellycuts.com/GizmoPack</loc>
 	</url>
 	<url>
-		<loc>https://docs.jellycuts.com/Documentation/Jellycuts</loc>
+		<loc>https://docs.jellycuts.com/Jellycuts</loc>
 	</url>
 	<url>
-		<loc>https://docs.jellycuts.com/Documentation/LinkBin</loc>
+		<loc>https://docs.jellycuts.com/LinkBin</loc>
 	</url>
 	<url>
-		<loc>https://docs.jellycuts.com/Documentation/Nudget</loc>
+		<loc>https://docs.jellycuts.com/Nudget</loc>
 	</url>
 	<url>
-		<loc>https://docs.jellycuts.com/Documentation/OtterRSS</loc>
+		<loc>https://docs.jellycuts.com/OtterRSS</loc>
 	</url>
 	<url>
-		<loc>https://docs.jellycuts.com/Documentation/Progress</loc>
+		<loc>https://docs.jellycuts.com/Progress</loc>
 	</url>
 	<url>
-		<loc>https://docs.jellycuts.com/Documentation/Recurrence</loc>
+		<loc>https://docs.jellycuts.com/Recurrence</loc>
 	</url>
 	<url>
-		<loc>https://docs.jellycuts.com/Documentation/Rubyist</loc>
+		<loc>https://docs.jellycuts.com/Rubyist</loc>
 	</url>
 	<url>
-		<loc>https://docs.jellycuts.com/Documentation/Scriptable</loc>
+		<loc>https://docs.jellycuts.com/Scriptable</loc>
 	</url>
 	<url>
-		<loc>https://docs.jellycuts.com/Documentation/Shortcuts</loc>
+		<loc>https://docs.jellycuts.com/Shortcuts</loc>
 	</url>
 	<url>
-		<loc>https://docs.jellycuts.com/Documentation/ToolboxPro</loc>
+		<loc>https://docs.jellycuts.com/ToolboxPro</loc>
 	</url>
 	<url>
-		<loc>https://docs.jellycuts.com/Documentation/WallpaperApp</loc>
+		<loc>https://docs.jellycuts.com/WallpaperApp</loc>
 	</url>
 	<url>
-		<loc>https://docs.jellycuts.com/Documentation/WidgetPack</loc>
+		<loc>https://docs.jellycuts.com/WidgetPack</loc>
 	</url>
 	<url>
-		<loc>https://docs.jellycuts.com/Documentation/aShell</loc>
+		<loc>https://docs.jellycuts.com/aShell</loc>
 	</url>
 	<url>
-		<loc>https://docs.jellycuts.com/Documentation/aShellMini</loc>
+		<loc>https://docs.jellycuts.com/aShellMini</loc>
 	</url>
 	<!-- Individual Action URLs -->
 	<url>
