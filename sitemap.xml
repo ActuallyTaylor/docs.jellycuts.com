@@ -1,0 +1,479 @@
+	
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+	http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+	<!-- Main Documentation URLs -->
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Apollo</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/CARROT</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/DataJar</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Drafts</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/FocusedWork</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/GizmoPack</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Jellycuts</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/LinkBin</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Nudget</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/OtterRSS</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Progress</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Recurrence</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Rubyist</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Scriptable</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Shortcuts</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/ToolboxPro</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/WallpaperApp</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/WidgetPack</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/aShell</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/aShellMini</loc>
+	</url>
+	<!-- Individual Action URLs -->
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/addToList.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/applyCaptureDate.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/clampNumber.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/combineLists.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/createURL.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/dateToUnixTime.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/editURL.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/filterList.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/formatCurrency.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/formatDateDifference.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/generateUUID.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/getAudioPlaybackDestination.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/getBatteryState.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/getEmojis.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/getFileIcon.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/getFilePath.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/getMusicPlaylists.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/getRunningApps.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/getTitleOfURL.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/getUniformTypeIdentifier.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/getUserDetails.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/hapticFeedback.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/hideShortcutsApp.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/isAudioPlaying.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/isBluetoothOn.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/isConnectedToVPN.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/isDarkMode.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/isLowPowerMode.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/isSilentModeOn.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/randomBoolean.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/randomColor.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/randomDateTime.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/randomEmoji.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/randomFloatingPointNumber.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/randomText.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/removeDuplicateLines.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/removeDuplicatesFromList.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/removeEmoji.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/removeEmptyLines.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/removeFromList.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/removeNonPrintableCharacters.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/reverseList.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/sampleColor.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/sendFeedback.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/setFileCreationModificationDate.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/shuffleList.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/sortList.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/spellOutNumber.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/transformText.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/transformTextWithJavaScript.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/trimWhitespace.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/truncateList.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/unixTimeToDate.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Actions/writeText.html</loc>
+	</url>
+	<!-- Apollo -->
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Apollo/openHome.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Apollo/openMultireddit.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Apollo/openSubreddit.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Apollo/openUser.html</loc>
+	</url>
+	<!-- CARROT -->
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/CARROT/currentForecast.html</loc>
+	</url>
+	<!-- DataJar -->
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/DataJar/checkIfValueExists.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/DataJar/deleteValue.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/DataJar/getChildCount.html</loc>
+	</url>
+	<!-- Add more DataJar URLs -->
+	<!-- Drafts -->
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Drafts/capture.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Drafts/dictateDraft.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Drafts/fileDraft.html</loc>
+	</url>
+	<!-- Add more Drafts URLs -->
+	<!-- FocusedWork -->
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/FocusedWork/endFocusSession.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/FocusedWork/getCurrentFocusSession.html</loc>
+	</url>
+	<!-- Add more FocusedWork URLs -->
+	<!-- GizmoPack -->
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/GizmoPack/addWalletPass.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/GizmoPack/combineLists.html</loc>
+	</url>
+	<!-- Add more GizmoPack URLs -->
+	<!-- Jellycuts -->
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Jellycuts/grabJellycut.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Jellycuts/importObjects.html</loc>
+	</url>
+	<!-- Add more Jellycuts URLs -->
+	<!-- LinkBin -->
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/LinkBin/addLink.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/LinkBin/addLinkFromClipboard.html</loc>
+	</url>
+	<!-- Add more LinkBin URLs -->
+	<!-- Nudget -->
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Nudget/addExpense.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Nudget/viewBudgetLeft.html</loc>
+	</url>
+	<!-- Add more Nudget URLs -->
+	<!-- OtterRSS -->
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/OtterRSS/discoverFeeds.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/OtterRSS/exportOPML.html</loc>
+	</url>
+	<!-- Add more OtterRSS URLs -->
+	<!-- Progress -->
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Progress/decreaseNumberTracker.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Progress/getNumberTrackerValue.html</loc>
+	</url>
+	<!-- Add more Progress URLs -->
+	<!-- Recurrence -->
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Recurrence/completeItem.html</loc>
+	</url>
+	<!-- Rubyist -->
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Rubyist/runCode.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Rubyist/runFile.html</loc>
+	</url>
+	<!-- Scriptable -->
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Scriptable/createFileBookmark.html</loc>
+	</url>
+	<!-- Shortcuts -->
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Shortcuts/addFrameToGIF.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/Shortcuts/addNewCalendar.html</loc>
+	</url>
+	<!-- Add more Shortcuts URLs -->
+	<!-- ToolboxPro -->
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/ToolboxPro/addContact.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/ToolboxPro/addContactGroup.html</loc>
+	</url>
+	<!-- Add more ToolboxPro URLs -->
+	<!-- WallpaperApp -->
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/WallpaperApp/getWallpaper.html</loc>
+	</url>
+	<!-- WidgetPack -->
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/WidgetPack/color.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/WidgetPack/font.html</loc>
+	</url>
+	<!-- Add more WidgetPack URLs -->
+	<!-- aShell -->
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/aShell/executeCommand.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/aShell/getFile.html</loc>
+	</url>
+	<!-- Add more aShell URLs -->
+	<!-- aShellMini -->
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/aShellMini/executeCommand.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Documentation/aShellMini/getFile.html</loc>
+	</url>
+	<!-- Add more aShellMini URLs -->
+	<!-- Drafts -->
+	<url>
+		<loc>https://docs.jellycuts.com/Drafts/index.html</loc>
+	</url>
+	<!-- Focused_Work -->
+	<url>
+		<loc>https://docs.jellycuts.com/Focused_Work/index.html</loc>
+	</url>
+	<!-- Add more Focused_Work URLs -->
+	<!-- Getting_Started -->
+	<url>
+		<loc>https://docs.jellycuts.com/Getting_Started/language_overview.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Getting_Started/setting_up_jellycuts.html</loc>
+	</url>
+	<!-- Add more Getting_Started URLs -->
+	<!-- GizmoPack -->
+	<url>
+		<loc>https://docs.jellycuts.com/GizmoPack/index.html</loc>
+	</url>
+	<!-- Jellycuts -->
+	<url>
+		<loc>https://docs.jellycuts.com/Jellycuts/index.html</loc>
+	</url>
+	<!-- Language_Guide -->
+	<url>
+		<loc>https://docs.jellycuts.com/Language_Guide/basics.html</loc>
+	</url>
+	<url>
+		<loc>https://docs.jellycuts.com/Language_Guide/functions_macros.html</loc>
+	</url>
+	<!-- Add more Language_Guide URLs -->
+	<!-- LinkBin -->
+	<url>
+		<loc>https://docs.jellycuts.com/LinkBin/index.html</loc>
+	</url>
+	<!-- Link_Bin -->
+	<url>
+		<loc>https://docs.jellycuts.com/Link_Bin/index.html</loc>
+	</url>
+	<!-- Nudget -->
+	<url>
+		<loc>https://docs.jellycuts.com/Nudget/index.html</loc>
+	</url>
+	<!-- Progress -->
+	<url>
+		<loc>https://docs.jellycuts.com/Progress/index.html</loc>
+	</url>
+	<!-- Recurrence -->
+	<url>
+		<loc>https://docs.jellycuts.com/Recurrence/index.html</loc>
+	</url>
+	<!-- Rubyist -->
+	<url>
+		<loc>https://docs.jellycuts.com/Rubyist/index.html</loc>
+	</url>
+	<!-- Scriptable -->
+	<url>
+		<loc>https://docs.jellycuts.com/Scriptable/index.html</loc>
+	</url>
+	<!-- Shortcuts_Standard -->
+	<url>
+		<loc>https://docs.jellycuts.com/Shortcuts_Standard/index.html</loc>
+	</url>
+	<!-- The_Wallpaper_App -->
+	<url>
+		<loc>https://docs.jellycuts.com/The_Wallpaper_App/index.html</loc>
+	</url>
+	<!-- Toolbox_Pro -->
+	<url>
+		<loc>https://docs.jellycuts.com/Toolbox_Pro/index.html</loc>
+	</url>
+	<!-- WidgetPack -->
+	<url>
+		<loc>https://docs.jellycuts.com/WidgetPack/index.html</loc>
+	</url>
+	<!-- a-Shell -->
+	<url>
+		<loc>https://docs.jellycuts.com/a-Shell/index.html</loc>
+	</url>
+	<!-- a-Shell_Mini -->
+	<url>
+		<loc>https://docs.jellycuts.com/a-Shell_Mini/index.html</loc>
+	</url>
+	<!-- Assets -->
+	<url>
+		<loc>https://docs.jellycuts.com/assets/logo.png</loc>
+	</url>
+</urlset>
